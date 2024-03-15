@@ -23,20 +23,10 @@ If done correctly, the validation check should pass. Click "create" to successfu
 
 <h2>REMOTE ACCESS</h2>
 
--Now that you have created the VM (virtual machine) click in the search bar and search "Virtual Machines" (or click you can click virtual machines under the "Azure Services" tab) there you will see the name of the machine you created.
+After creating your virtual machine (VM), you can find it by searching "Virtual Machines" in the search bar or by clicking "Virtual Machines" under the "Azure Services" tab. Once you find your VM, click on its name to access the overview page, where you can see the public and private IP addresses. Remember to write down or copy the public IP address as needed later.
 
--Click the name of your vm and that will take you to an overview page displaying all the info about your vm. You will see a public ip address and a private ip address. You will need the public ip; copy or write it down!!!
+For Windows users, click the Start menu and type "remote desktop." On the screen that appears, paste or type in the public IP address and enter the username and password you used when creating the VM. If you receive a warning message stating that the VM is unsafe, ignore it and click "yes," as it is entirely safe. Once you have done this correctly, your virtual machine will start loading on your screen. Type in your username and password when prompted, and you're all set!
 
--If you are a windows user; click the start menu and type in "remote desktop". In the screen; paste or type in the public ip address and enter the username and password you've created making the vm. If you get warning message saying that it isn't safe, disregard that and click yes, its totally safe. If done correctly, your virtual machine will open on your screen and start loading. Type in username and password when prompted, and welcome to your Virtual Machine!
+Mac users can download Microsoft Remote Desktop for free from the App Store. After installing the app, open it and click on the "+" sign. Select "Add PC" and enter the IP address under "PC NAME". Under "USER ACCOUNT," type in your VM's username and password, and click save. This will create your virtual PC within the app with the IP address as the name. Click on the PC, and your VM should load on your Mac.
 
--For Mac users, download "RD Cient" from the Apple store (its free).
-
--Open the app and click on the + sign. Select "Add PC". Enter ip adress under "PC NAME" and under "USER ACCOUNT" type in your vms username and password that you created and click save. This will create your virtual PC within the app with the IP adress as the name.
-
--Click on the PC and if done correctly; your vm should load on your Mac.
-
--To delete your vm, go back to your azure portal and go to resoure group. Delete the resource group and the NetworkWatcherRG folders created and your done. 
-
-<H3> VIDEO EXAMPLE</H3>
-
-<a href="https://www.youtube.com/watch?v=iaooNrDpEtM&t=11s"> Creating Virtual Machine In Azure</a>
+To delete your VM, go back to your Azure portal and access the resource group. Delete the resource group and the NetworkWatcherRG folders created.
